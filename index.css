@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    text-align: justify;
+    align-items: center;
+}
+body{
+    background-color: black;
+    opacity: .75;
+}
+section,footer{
+background-color: bisque;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding: 20px 10px 20px 10px;
+gap: 30px;
+border-radius: 40px;
+border: 2px solid black;
+}
+.parallax1,.parallax2,.parallax3,.parallax4{
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+opacity: 0.75;
+}
+.parallax1{
+    background-image:url(./pics/pexels-cottonbro-studio-6054113.jpg) ;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(242, 134, 134);
+   
+}
+@keyframes drop {
+    0% {
+      opacity: 0;
+      transform: translateY(-80px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+  .head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: drop 3s ease-in;
+    font-size: 100px;
+    color: rgb(242, 134, 134);
+  }
+  .parallax2{
+    background-image:url(./pics/pexels-creative-vix-9754.jpg) ;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(242, 134, 134);
+    font-size: 100px;
+  }
+  .parallax3{
+    background-image:url(./pics/pexels-david-alberto-carmona-coto-1151418.jpg) ;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(242, 134, 134);
+    font-size: 100px;
+  }
+  .parallax4{
+    background-image:url(./pics/pexels-min-an-853168.jpg) ;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(242, 134, 134);
+    font-size: 100px;
+  }
+  h1{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-radius: 10px 0px 10px 0px;
+  }
