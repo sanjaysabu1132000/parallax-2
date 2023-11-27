@@ -5,6 +5,7 @@
     font-weight: 400;
     text-align: justify;
     align-items: center;
+    font-family: "poppins",sans-serif;
 }
 body{
     background-color: black;
@@ -49,11 +50,11 @@ opacity: 0.75;
   }
   .head{
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     animation: drop 3s ease-in;
-    font-size: 100px;
-    color: rgb(242, 134, 134);
+    font-size: 70px;
+    color: rgba(225, 231, 205, 0.829);
   }
   .parallax2{
     background-image:url(./pics/pexels-creative-vix-9754.jpg) ;
@@ -86,4 +87,8 @@ opacity: 0.75;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     border-radius: 10px 0px 10px 0px;
+  }
+  p{
+    padding: 0px 30px 20px 30px;
+    line-height: 1.5rem;
   }
